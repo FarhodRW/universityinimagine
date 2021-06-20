@@ -1,0 +1,186 @@
+body{
+  font-family: "Barlow";
+  background-color: #efefef;
+
+}
+.homepage{
+  padding: 1% 0 3% 0;
+  text-align: center;
+}
+.homeimg{
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  left: 0;
+}
+.home{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: white;
+}
+.txt1{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+}
+.txt2 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+    font-size: 55px;
+    padding-bottom: 1%;
+}
+.btn1{
+display: block;
+border: 0;
+border-radius: 0;
+background:#4b39b5;
+color: white;
+font-size: 17.7px;
+margin: -60px auto 30px;
+width: 15%;
+padding: 15px;
+transform: translate(0, 100%);
+}
+.btn1:hover{
+  background-color: #efefef;
+  color: black;
+}
+/* second page */
+.about{
+  background-color: #efefef;
+padding: 0;
+margin-bottom: 1%;
+}
+.second{
+  max-width: 100%;
+  text-align: center;
+}
+.about-info{
+  padding: 30% 15% 0 10%;
+}
+.about-info h2{
+  font-size: 32px;
+  color: #4b39b5;
+  font-weight: 700;
+}
+.about-info p{
+  font-size: 16px;
+  font-weight: 300;
+}
+/* profiles section */
+#profiles{
+height: 500px;
+margin-bottom: 1%;
+margin-top: 1%;
+  background-color: #efefef;
+
+}
+#profilepic{
+  width: 100%;
+}
+.row21{
+  height: 40%;
+  padding-top: 7%;
+  padding-left: 3%;
+}
+.row21 h2{
+font-family: 'Barlow',
+sans-serif;
+font-weight: 700;
+font-size: 32px;
+color: #4b39b5;
+}
+.row21 p{
+   font-family: 'Barlow',
+   sans-serif;
+   font-weight: 300;
+   font-size: 17px;
+}
+.row22{
+  height: 60;
+}
+button {
+  display: block;
+  border: 0;
+  border-radius: 0;
+  background:#4b39b5;
+  color: white;
+  font-size: 18px;
+  margin: -60px auto 15px;
+  padding: 15px;
+  transform: translate(0, -100%);
+  font-family: "Barlow";
+}
+button:hover{
+ background-color: #efefef;
+ color: black;
+}
+/* facilites */
+#facilites{
+  background-color:#efefef;
+  padding-bottom: 3%;
+  padding-top: 2%;
+}
+.facilities-head {
+  font-weight: 700;
+  font-size: 35px;
+  color: #4b39b5;
+  padding: 3%;
+  padding-left: 0%;
+  font-family: "Barlow";
+}
+.facilities{
+  font-weight: 700;
+  font-size: 16px;
+  color: #4b39b5;
+  font-family: "Barlow";
+}
+.finfo{
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Barlow";
+}
+/* contacts */
+#contacts{
+  background-color: #efefef;
+  font-family: "Barlow";
+  padding-bottom: 3%;
+}
+.contactimg{
+  width: 100%;
+  padding-bottom: 1%;
+}
+#contacts .col-md-5 h2 {
+font-size: 35px;
+color: #4b39b5;
+font-weight: 700;
+width: 15%;
+padding-left: 10%;
+}
+#contacts .col-md-5 p{
+  padding-left: 10%;
+}
+#contacts .col-md-2 h3{
+font-size: 15x;
+color: #4b39b5;
+font-weight: 700;
+padding-top: 24%;
+}
+#contacts .col-md-3 h3 {
+  font-size: 15x;
+  color: #4b39b5;
+  font-weight: 700;
+  padding-top: 15%;
+}
+/* footer */
+footer{
+  padding-top: 1%;
+  padding-bottom: 0.7%;
+text-align: center;
+color: white;
+background-color: #4b39b5;
+ font-size: 20px;
+ font-family: "Barlow";
+  }
