@@ -1,2 +1,2 @@
 # universityinimagine
-just some html css and bootstrap
+just some html css and bootstrap. not responsive 
